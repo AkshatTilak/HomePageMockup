@@ -1,0 +1,142 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin : 0px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+ul{
+    list-style-type: none;
+    margin : 0;
+    padding: 0;
+    display: flex;
+    gap : 10px;
+}
+.top , .mainWelcome{
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    padding-left: 100px ;
+    padding-right: 100px;
+    justify-content: space-between;
+    padding-bottom: 75px;
+    gap : 10px;
+    
+}
+.mainWelcome .leftWelcome, .mainWelcome .image{
+    display: flex;
+}
+
+.mainWelcome .leftWelcome{
+    flex-direction: column;
+}
+
+.heading{
+    display : flex;
+    font-weight: bolder;
+}
+
+
+.top .heading{
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.leftWelcome .heading{
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.leftWelcome .text{
+    color: #E5E7EB ;
+    font-size: 18px;
+    max-width: fit-content;
+}
+
+.button{
+    color: #F9FAF8;
+    border-radius: 5px;
+    background-color: #3882F6;
+    width: fit-content;
+    align-self: center;
+    border: none;
+    padding: 8px;
+}
+
+img{
+    display: flex;
+    border: 2px solid #3882F6 ;
+    padding: 5px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.mid{
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 800;
+    padding: 20px;
+}
+
+.extraInfo{
+    display: flex;
+    justify-content: center;
+
+}
+
+.extraInfo .set{
+    margin : 30px;
+}
+
+.extraInfo img{
+    width: 200px;
+    height: 200px;
+}
+
+p {
+    text-align: center;
+    width: 200px;
+    height: 200px;
+}
+
+.extraQuote{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+.extraQuote .quote{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+    font-style: italic;
+    
+}
+
+.extraQuote .quoteFrom{
+    color: #1F2937;
+    font-weight: bolder;
+    padding: 20px;
+    align-self: flex-end;
+}
+
+.endOfPage {
+    background-color:#3882F6;
+    color: white;
+    display: flex;
+    border-radius: 10px;
+    padding: 50px;
+    margin: 100px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.endOfPage button{
+    font-weight: bolder;
+    border: 2px solid #E5E7EB;
+}
